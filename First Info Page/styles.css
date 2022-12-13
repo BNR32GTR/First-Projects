@@ -1,0 +1,163 @@
+html {
+  background: rgb(15, 15, 15);
+  color: white;
+  font-family: 'Open Sans', sans-serif
+}
+
+header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.whole-body {
+  width: 65%;
+  margin-left: 400px;
+}
+
+.hako {
+  margin-left: 50px;
+  height: 600px;
+  border-radius: 10px
+}
+
+.hako-caption {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.main-section {
+  margin-top: 50px;
+}
+
+#nav-bar {
+  background-image: linear-gradient(
+        115deg,
+        rgba(50, 50, 50, 0.8),
+        rgba(25, 25, 25, 0.7)
+      ),
+      url(https://live.staticflickr.com/7247/7629022866_8fb14e0467_b.jpg);
+  width: 380px;
+  position: fixed;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  top: -10px;
+  left: 0;
+  border-radius: 5px;
+  height: 620px
+}
+
+#nav-bar header {
+  color: white;
+  text-align: center;
+  border-bottom: solid 2px;
+  font-family: 'Open Sans', sans-serif
+}
+
+#nav-bar li {
+  text-align: left;
+  margin-top: 40px;
+  font-size: 19px;
+  margin-left: -9px;
+  min-width: 300px;
+  font-family: 'Open Sans', sans-serif;
+  white-space: nowrap;
+  display: block;
+}
+
+#nav-bar .nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-bar .nav-link:hover {
+  color: #0e4bef;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.for-paul {
+  margin-left: 200px;
+  border-radius: 10px;
+}
+
+.paul-caption {
+  text-align: center;
+  margin-right: 80px;
+}
+
+tr, td, th {
+  text-align: left;
+  border: solid white 1px;
+  font-size: 20px;
+}
+
+table {
+  margin-left: px;
+}
+
+.engine-img img {
+  display: -webkit-box;
+  margin-left: 800px;
+  position: absolute;
+  margin-top: -400px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.eng-caption {
+  display: -webkit-box;
+  position: absolute;
+  margin-left: 725px;
+  margin-top: -90px;
+}
+
+.gtr2022img {
+  width: 800px;
+  height: 600px;
+  margin-left: 200px;
+  border-radius: 10px;
+}
+
+.gtr2022 {
+  margin-left: 320px;
+}
+
+.logo-link1 {
+  width: 300px;
+  height: 100px;
+}
+
+.logo-link1:hover {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.logo-link2 {
+  width: 300px;
+  height: 50px;
+}
+
+.logo-link2:hover {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.mini-gtr {
+  width: 400px;
+  margin-left: -50px;
+}
+
+.footer-blank-space {
+  padding-bottom: 100px;
+}
+
+.reclinks {
+  text-decoration: none;
+  color: #0e4bef;
+}
+
+.reclinks:hover {
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+}

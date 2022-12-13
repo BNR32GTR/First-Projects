@@ -1,0 +1,119 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(
+        115deg,
+        rgba(50, 50, 50, 0.8),
+        rgba(25, 25, 25, 0.7)
+      ),
+      url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/03/Feature-Collage.jpg);
+  color: white;
+  background-size: fixed;
+  font-family: 'Verdana', serif;
+  display: block;
+}
+
+.first-image {
+  height: auto;
+  width: 75%;
+  border-radius: 50px;
+  display: block;
+  margin: auto auto;
+  max-width: 100%;
+}
+
+.content {
+  background: rgba(10, 10, 10, 0.6);
+  width: 50%;
+  margin-left: 465px;
+  border-radius: 25px;
+  height: 1920px;
+}
+
+header {
+  background-color: rgb(50, 100, 200);
+  text-align: left;
+  margin: -10px -10px 50px;
+  padding: 5 50px 1px 40px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav > ul {
+  display: flex;
+  margin-left: 700px;
+}
+
+nav > ul > li {
+  margin: 0 0px 0 20px;
+  display: flex;
+  margin-left: 30px;
+  }
+
+li > a {
+  text-decoration: none;
+  color: yellow;
+}
+
+li > a:hover {
+  background: rgb(250, 200, 0);
+  color: rgb(250, 0, 50);
+  border-radius: 6px;
+}
+
+.par {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 125px;
+  margin-right: 125px;
+  margin-top: 50px;
+}
+
+.par-titles {
+  margin-top: 50px;
+  margin-bottom: -30px;
+}
+
+.tribute-url {
+  margin-top: 50px;
+}
+
+.outside-link {
+  text-decoration: none;
+  color: black;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  border-radius: 7px;
+}
+
+.outside-link:hover {
+  color: rgb(250, 0, 50);
+  background: rgb(250, 200, 0);
+  border-radius: 7px;
+}
+
+ul > .navs {
+  margin-right: -0px;
+  margin-top: 10px;
+}
+
+.suplogo {
+  height: 130px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.sup-name-logo {
+  width: 200px;
+  height: 50px;
+}
+
+.titler {
+  margin-top: 30px;
+}

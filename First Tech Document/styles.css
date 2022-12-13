@@ -1,0 +1,186 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  html {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(20, 20, 20);
+    color: white;
+  }
+  
+  #navbar {
+    position: fixed;
+    background-image: linear-gradient(
+          115deg,
+          rgba(50, 50, 50, 0.8),
+          rgba(25, 25, 25, 0.7)
+        ),
+        url(https://images.hdqwalls.com/download/nissan-skyline-r32-tail-lights-c4-720x1280.jpg);
+    width: 475px;
+    height: 700px;
+    background-size: 475px 700px;
+    border-radius: 8px;
+    margin-left: -15px;
+    margin-top: -60px;
+    border-right: solid 1px white;
+    border-bottom: solid 1px white; 
+  }
+  
+  #navbar > header {
+    text-align: center;
+    border-bottom: solid 1px white;
+  }
+  
+  .nav-li {
+    display: block;
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: rgb(150, 50, 80);
+    margin-left: 3px;
+    font-weight: bold;
+    white-space: nowrap;
+    border-bottom: solid 1px;
+  }
+  
+  header {
+    font-size: 22px;
+    margin-top: 40px;
+    color: rgb(150, 50, 80);
+  }
+  
+  #main-doc {
+    width: 1000px;
+    margin-left: 500px;
+  }
+  
+  code {
+    display: block;
+    color: lightblue;
+    margin-top: 4px;
+  }
+  
+  .code-underlay {
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  .engine-code-header {
+    margin-left: 30px;
+    margin-bottom: 6px;
+  }
+  
+  .pro-con {
+    background-color: rgb(40, 40, 40);
+    width: 450px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    margin-left: 70px;
+  }
+  
+  .ref-list {
+    display: block;
+  }
+  
+  .img-link1 {
+    width: 200px;
+    margin-left: -50px;
+  }
+  
+  .img-link2 {
+    margin-left: -40px;
+  }
+  
+  .ref-links:hover {
+    margin-left: 10px;
+  }
+  
+  .ref-links {
+    width: 100px;
+  }
+  
+  /*images*/
+  .cali-gtr {
+    width: 800px;
+    height: 470px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  
+  .import-gtr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 3.5rem;
+  }
+  
+  .import-gtr-caption {
+    margin-left: 340px;
+    margin-top: -52px;
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  .gtr-rust {
+    position: absolute;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: -394px;
+    border-radius: 10px;
+  }
+  
+  .gtr-rust-caption {
+    position: absolute;
+    margin-left: 615px;
+    margin-top: -93px;
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  .miami-gtr {
+    width: 900px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .int-gtr {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
+  
+  .int-gtr-caption {
+    margin-left: 400px;
+    margin-top: 1px;
+    font-style: italic;
+    font-size: 15px; 
+  }
+  /*end of images*/

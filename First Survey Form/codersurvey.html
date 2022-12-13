@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="codersurvey.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="complete-body">
+      <header class="header">
+        <h1 id="title" class="header-h1">Coders Survey</h1>
+        <p id="description" class="header-description">
+          Master Coders, please fill out this survey to help beginner coders
+        </p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">What's your name?</label>
+          <input
+            type="text"
+            name="text"
+            id="name"
+            class="form-control"
+            placeholder="Name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="email-label" for="email">What's your email?</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="thecoder27@example.com"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >How young are you?<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            class="form-control-age"
+            placeholder="Age"
+            min="10"
+            max="120"
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="select-label" for="dropdown"
+            >How long have you been coding for?</label
+          >
+          <select id="dropdown" class="dropdown-box">
+            <option disable selected value>(choose one)</option>
+            <option value="1-2years">1 - 2 years</option>
+            <option value="3-5years">3 - 5 years</option>
+            <option value="6-9years">6 - 9 years</option>
+            <option value="10+years">10+ years</option>
+            <option value="longtime">
+              I've been doing this for a long time...
+            </option>
+          </select>
+        </div>
+
+        <div class="radios">
+          <p class="p-radio">What's your view on coding?</p>
+          <label for="radio1" class="radio-labels">
+            <input
+              id="radio1"
+              name="view-coding"
+              type="radio"
+              value="changed-life"
+              class="input-radio"
+              checked
+            />It changed my life</label
+          >
+          <label for="radio2" class="radio-labels">
+            <input
+              id="radio2"
+              name="view-coding"
+              type="radio"
+              value="form-art"
+              class="input-radio"
+            />It's a form of <em>art</em></label
+          >
+          <label for="radio3" class="radio-labels">
+            <input
+              id="radio3"
+              name="view-coding"
+              type="radio"
+              value="fun-at-times"
+              class="input-radio"
+            />It's really fun!...at times...</label
+          >
+        </div>
+
+        <div class="checkboxes">
+          <p class="p-checkbox">
+            Which coding languages do you enjoy the most?
+          </p>
+          <p class="checkbox-clue">(select all that apply)</p>
+          <label for="1html" class="label-checkbox">
+            <input
+              id="1html"
+              name="favorite"
+              type="checkbox"
+              value="HTML"
+              class="input-checkbox"
+            />HTML</label
+          >
+          <label for="2css" class="label-checkbox">
+            <input
+              id="2css"
+              name="favorite"
+              type="checkbox"
+              value="CSS"
+              class="input-checkbox"
+            />CSS</label
+          >
+          <label for="3js" class="label-checkbox">
+            <input
+              id="3js"
+              name="favorite"
+              type="checkbox"
+              value="JavaScript"
+              class="input-checkbox"
+            />JavaScript</label
+          >
+          <label for="4other" class="label-checkbox">
+            <input
+              id="4other"
+              name="favorite"
+              type="checkbox"
+              value="Other"
+              class="input-checkbox"
+            />Other(s)</label
+          >
+        </div>
+
+        <div class="advice-div">
+          <p class="p-advice">
+            What advice would you give to someone who is trying to learn coding?
+          </p>
+          <textarea
+            id="advice"
+            class="input-textarea"
+            name="codeadvice"
+            placeholder="Enter your advice here..."
+          ></textarea>
+        </div>
+
+        <div class="submission">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
